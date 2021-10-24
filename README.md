@@ -11,10 +11,8 @@
 - `yarn node`
 
 ## Environment File (.env)
-- Configure the following environment variables on a .env in the package root:
-  - Mnemonic - Deployment Owner(s) BIP-32 Mnemonic phrase
-  - Lottery Participant Entry Fee in Wei
-  - Owner Fee in Wei
+- Alchemy or any other Provider endpoint
+- Private key for the deployer account
 
 ## Compile & migrate (Deploy) Contracts
 - `yarn deploy` (Default network: Kovan Ethereum Testnet)

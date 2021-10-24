@@ -164,7 +164,8 @@ useEffect(() => {
     fetchNFTMetadata();
     setIsLoading(false);
   }
-}, [characterNFT, currentAccount]);
+// eslint-disable-next-line react-hooks/exhaustive-deps
+}, [currentAccount]);
 
   return (
   <div className="App">

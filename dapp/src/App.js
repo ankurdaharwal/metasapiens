@@ -47,6 +47,7 @@ const [isLoading, setIsLoading] = useState(false);
         console.log('Found an authorized account:', account);
         setCurrentAccount(account);
       } else {
+        setIsLoading(false);
         console.log('No authorized account found');
       }
     } catch (error) {

@@ -19,6 +19,7 @@
 ## Compile & migrate (Deploy) Contracts
 - `yarn deploy` (Default network: Kovan Ethereum Testnet)
 
+![image](https://user-images.githubusercontent.com/25655858/138593361-b2bdb31d-6b0e-491b-b000-69a183fa0f1c.png)
 
 ## Run Tests
 - `yarn test`

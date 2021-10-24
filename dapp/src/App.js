@@ -164,7 +164,7 @@ useEffect(() => {
     fetchNFTMetadata();
     setIsLoading(false);
   }
-}, [currentAccount]);
+}, [characterNFT, currentAccount]);
 
   return (
   <div className="App">
